@@ -14,3 +14,18 @@ p {
 	line-height: 1.3em; /*altura da linha */
 	text-align: justify;
 }
+
+p::first-line { /*aplica alterações apenas a primeira linha de cada parágrafo */
+	font-size: 1.17em;
+	font-variant: small-caps;
+	font-weight: bolder;
+	font-style: italic;
+}
+
+hr { /*aplica separador do tipo régua */
+	border-color: #c0262C;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
