@@ -31,3 +31,16 @@ hr { /*aplica separador do tipo régua */
 body {
 	font-family: Arial, Helvetica, sans-serif;
 }
+
+/* pg produtos - table */
+#produtos table {
+    width: 600px;
+    margin: 50px auto 30px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#produtos th, #produtos td {
+    border: #999 solid 1px;
+    padding: 5px;
+}
