@@ -44,3 +44,16 @@ body {
     border: #999 solid 1px;
     padding: 5px;
 }
+
+#produtos caption {
+    background-color: #999;
+    color: #fff;
+    padding: 15px 0;
+    font-size: 1.5em;
+}
+
+#produtos td[colspan] {
+    font-style: italic;
+    font-weight: bold;
+    color: #999;
+}
