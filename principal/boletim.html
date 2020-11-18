@@ -5,12 +5,13 @@
 <head>
 	<meta charset="utf-8">
 	<title>Boletim Mensal - Meu amigo cão</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
     <script src="interacao/html5shiv.min.js"> </script>
 </head>
 
 
 
-<body>
+<body id="boletim-f">
 
 	<p>
 		<a href="index.html">Home</a>
@@ -28,12 +29,12 @@
             você receberá mensalmente informações sobre nossos produtos, serviços, eventos e descontos.
         </p>
 
-		<form method="POST" id="boletim" action="/cap03/projeto_inicio/obrigado.html">
+		<form method="POST" id="boletim" action="../obrigado.html">
 			<p>
-				<label for="nome">Nome</label> <input type="text" name="nome" placeholder="Digite o seu nome">
+				<label for="nome">Nome:</label> <input type="text" name="nome" id="nome" placeholder="Digite o seu nome">
             </p>
 			<p>
-				<label for="email">E-mail</label> <input type="text" name="email" placeholder="Digite seu e-mail">
+				<label for="email">E-mail:</label> <input type="text" name="email" id="email" placeholder="Digite seu e-mail">
             </p>
 
 			<input type="submit" value="Enviar">
