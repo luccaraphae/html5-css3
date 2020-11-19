@@ -1,13 +1,37 @@
 
+/*Estrutura*/
+body{
+    width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
 
-h1 {
+header h1{
+    width: 240px;
+	float: left;
+	background-image: url(../Multimidia/meu-amigo-cao-petshop-header.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 200px;
+	text-indent: -1000px;
+	margin-bottom: 0px;
+}
+
+
+/* textos da área principal */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+main h1 {
 	color: #c0262C;
 	font-size: 2.5em; /* 40/16=2.5 (1em equivale á 16px) */
     border-bottom: #c0262C solid thin;
     padding-bottom: 7px;
 }
 
-h2 {
+main h2 {
 	font-size: 1.75em; /* 28/16=1.75 */
     background: #c0262C url(../Multimidia/back-bolinha.gif) repeat top center;
     color: #fff;
@@ -16,26 +40,23 @@ h2 {
     width: 316px;
 }
 
-p {
+main p {
 	font-size: 1.1em;
 	line-height: 1.3em; /*altura da linha */
 	text-align: justify;
 }
 
-p::first-line { /*aplica alterações apenas a primeira linha de cada parágrafo */
+main h2+p::first-line { /*aplica alterações apenas a primeira linha de cada parágrafo */
 	font-size: 1.17em;
 	font-variant: small-caps;
 	font-weight: bolder;
 	font-style: italic;
 }
 
-hr { /*aplica separador do tipo régua */
+main hr { /*aplica separador do tipo régua */
 	border-color: #c0262C;
 }
 
-body {
-	font-family: Arial, Helvetica, sans-serif;
-}
 
 /* pg produtos - table */
 #produtos table {
@@ -66,6 +87,7 @@ body {
 #produtos tr:hover{
     background-color: #feff76;
 }
+
 
 /*página formulário */
 form{
