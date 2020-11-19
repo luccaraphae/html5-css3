@@ -34,7 +34,7 @@ header section a[href="boletim.html"] {
 	border-radius: 15px;
 	color: #C0262C;
 	text-decoration: none;
-	font-size: 1.1em;
+	font-size: 1em;
 }
 
 header section p {
@@ -58,6 +58,55 @@ header section figure a:first-child {
 
 header section figure a:last-child {
 	padding: 25px 0 0 5px;
+}
+
+
+/*Estrutura de navegação*/
+nav {
+	background-color: #000;
+	overflow: auto;
+	clear: both;
+	margin-top: 10px;
+}
+
+nav ul {
+	list-style: none;
+	padding-left: 0px;
+	margin-top: 1px;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2em;
+	padding: 8px 50px;
+	line-height: 2em;
+}
+
+#inicial a[href="index.html"], 
+#quemSomos a[href="quem-somos.html"], 
+#produtos a[href="produtos.html"], 
+#banhoetosa a[href="banho-e-tosa.html"], 
+#curiosidades a[href="curiosidades.html"] {
+	background-color: #C0262C;
+}
+
+
+/* Estrutura página inicial */
+#inicial aside {
+	width: 230px;
+	float: left;
+	margin-top: 30px;
+}
+
+#inicial main {
+	width: 490px;
+	float: left;
+	margin: 30px 25px 10px;
 }
 
 
