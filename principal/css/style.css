@@ -24,6 +24,43 @@ header #anuncio{
     padding-top: 0;
 }
 
+header section {
+	padding-top: 70px;
+}
+
+header section a[href="boletim.html"] {
+	border: solid #C0262C thin;
+	padding: 15px;
+	border-radius: 15px;
+	color: #C0262C;
+	text-decoration: none;
+	font-size: 1.1em;
+}
+
+header section p {
+	color: #999999;
+	margin: 33px auto 7px;
+}
+
+header section figure {
+    width: 100%;
+	margin: 0px;
+}
+
+header section figure a {
+	padding: 25px 5px 0;
+	border: none;
+}
+
+header section figure a:first-child {
+	padding: 25px 5px 0 0;
+}
+
+header section figure a:last-child {
+	padding: 25px 0 0 5px;
+}
+
+
 /* textos da área principal */
 body {
 	font-family: Arial, Helvetica, sans-serif;
