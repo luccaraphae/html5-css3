@@ -194,3 +194,13 @@ input[type="submit"]{
 	/* 21/16=1.3125em */
 	letter-spacing: .07em;
 }
+
+
+/*Página Quem somos */
+#quemSomos main img{
+    float: left;
+    margin: 0 20px 20px 0;
+	padding: 10px;
+	border: solid #C0262C thin;
+	background-color: #fff;
+}
