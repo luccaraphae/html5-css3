@@ -17,6 +17,12 @@ header h1{
 	margin-bottom: 0px;
 }
 
+header #anuncio{
+    width: 510px;
+    float: left;
+    margin: 80px auto auto;
+    padding-top: 0;
+}
 
 /* textos da área principal */
 body {
